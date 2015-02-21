@@ -9,6 +9,9 @@ syntax on
 filetype plugin on
 filetype indent on
 
+"Backspace working as expected
+set backspace=indent,eol,start
+
 "Python options
 "ipdb
 autocmd FileType python map U iimport ipdb;ipdb.set_trace()<CR> 
@@ -27,6 +30,7 @@ let g:tex_flavor='latex'
 set smartindent
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 
 "autocmd Filetype html setlocal ts=2 sts=2 sw=2
