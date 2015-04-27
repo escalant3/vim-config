@@ -7,3 +7,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/yajs"]
+	path = bundle/yajs
+	url = https://github.com/othree/yajs.vim.git
