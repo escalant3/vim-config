@@ -77,3 +77,6 @@ nnoremap <leader>nt :NERDTree<cr>
 nnoremap <leader>nh  :noh<cr>
 "Close Window
 vnoremap <leader>q  :q<cr>
+
+"Ignore directories for ctrlp
+set wildignore+=*/node_modules/*,*/bower_components/*
