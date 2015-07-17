@@ -10,3 +10,6 @@
 [submodule "bundle/yajs"]
 	path = bundle/yajs
 	url = https://github.com/othree/yajs.vim.git
+[submodule "bundle/swift.vim"]
+	path = bundle/swift.vim
+	url = https://github.com/keith/swift.vim.git
